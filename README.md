@@ -15,11 +15,11 @@ Il **DataService API** fa parte dell'architettura modulare di **SmartLocAI** ed 
 3. **Preprocessing**: I dati raccolti possono essere visualizzati, aggiornati o eliminati tramite richieste POST, GET, PUT e DELETE.
 4. **Utilizzo per addestramento**: I dati vengono successivamente utilizzati dalla **Preprocessing Dashboard** per addestrare i modelli di machine learning.
 
-## b) Repositori dei Componenti
+## b) Repositories dei Componenti
 
 - **Preprocessing Dashboard**: [Link al repository](https://github.com/UniSalento-IDALab-IoTCourse-2023-2024/wot-project-2023-2024-Dashboard-IzziBarone.git)
 - **LocalizationService API**: [Link al repository](https://github.com/UniSalento-IDALab-IoTCourse-2023-2024/wot-project-2023-2024-LocalizationService-IzziBarone)
-- **SmartLocAI App**: Link al repository
+- **SmartLocAI App**: [Link al repository](https://github.com/UniSalento-IDALab-IoTCourse-2023-2024/wot-project-2023-2024-SmartLocAI_APP-IzziBarone.git)
 
 ## c) Endpoint Principali del DataService API
 
