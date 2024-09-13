@@ -1,0 +1,26 @@
+services:
+  indoorapi:
+    container_name: indoorapi
+    image: localhost:5050/indoorapi
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8082:80"
+    environment:
+      - DATABASE_URL=mongodb://db:27017/database
+      - DATABASE=database
+      - JWT_SECRET=******
+      - USERNAME=*******
+      - PASSWORD=*******
+    depends_on:
+      - db
+
+
+  db:
+    container_name: db
+    image: mongo:latest
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
