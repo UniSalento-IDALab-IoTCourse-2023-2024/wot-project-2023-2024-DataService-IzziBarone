@@ -111,8 +111,15 @@ Il **DataService API** fa parte dell'architettura modulare di **SmartLocAI** ed 
    ```bash
    git clone https://github.com/link-dataservice-api.git
    ```
-
-2. Docker compose
+2. Variabili d'ambiente:
+   ```yml
+      - DATABASE_URL=mongodb://db:27017/database
+      - DATABASE=database
+      - JWT_SECRET=******
+      - USERNAME=*******
+      - PASSWORD=*******
+   ```
+4. Docker compose
    ```bash
    docker compose up -d
    ```
